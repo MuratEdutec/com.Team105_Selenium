@@ -23,7 +23,7 @@ public class C02_CssSelector {
      //   11-Sayfayi kapatin
 
 
-        System.setProperty("webdriver.chrome.driver","src/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","src/drivers/chromedriver");
         WebDriver driver= new ChromeDriver();
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));

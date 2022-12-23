@@ -12,7 +12,7 @@ public class C04_AutomationExercise {
     public static void main(String[] args) throws InterruptedException {
 
         // 1- Bir test class’i olusturun ilgili ayarlari yapin
-        System.setProperty("webdriver.chrome.driver","src/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","src/drivers/chromedriver");
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));

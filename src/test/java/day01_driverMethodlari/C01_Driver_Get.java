@@ -7,7 +7,7 @@ public class C01_Driver_Get {
 
     public static void main(String[] args) throws InterruptedException {
 
-    System.setProperty("webdriver.com.driver","src/drivers/chromedriver.exe");
+    System.setProperty("webdriver.com.driver","src/drivers/chromedriver");
     //windows olanlar sonunda.exe yazmali, mac'de buna gerek yok
 
         WebDriver driver=new ChromeDriver();

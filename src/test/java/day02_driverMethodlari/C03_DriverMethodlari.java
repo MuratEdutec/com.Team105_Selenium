@@ -7,7 +7,7 @@ public class C03_DriverMethodlari {
 
     public static void main(String[] args) {
 
-        System.setProperty("webdriver.chrome.driver", "src/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/drivers/chromedriver");
         WebDriver driver= new ChromeDriver();
 
         driver.get("https://www.amazon.com");

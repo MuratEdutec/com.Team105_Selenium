@@ -15,7 +15,7 @@ public class C03_RelativeSelector {
     //    2 ) Berlin’i 3 farkli relative locator ile locate edin
     //    3 ) Relative locator’larin dogru calistigini test edin
 
-        System.setProperty("webdriver.chrome.driver","src/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","src/drivers/chromedriver");
         WebDriver driver =new ChromeDriver();
 
         driver.manage().window().maximize();

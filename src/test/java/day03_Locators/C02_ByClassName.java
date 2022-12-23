@@ -20,7 +20,7 @@ public class C02_ByClassName {
         // en yuksek fiyati bulun
 
 
-        System.setProperty("webdriver.chrome.drive","src/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.drive","src/drivers/chromedriver");
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));

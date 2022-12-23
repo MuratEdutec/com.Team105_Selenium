@@ -15,7 +15,7 @@ public class C03_ByLinkText {
         // gift cards linkini tiklayin
         // gift cards sayfasina gittigini test edin
 
-        System.setProperty("webdriver.chrome.driver","src/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","src/drivers/chromedriver");
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3000));

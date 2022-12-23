@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class C02_DriverMethodlari {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("web.driver.com","src/drivers/chromedriver.exe");
+        System.setProperty("web.driver.com","src/drivers/chromedriver");
         WebDriver driver= new ChromeDriver();
 
         //sayfayi tam ekran yapalim
